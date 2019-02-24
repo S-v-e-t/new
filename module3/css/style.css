@@ -1,3 +1,14 @@
+/*html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -5,22 +16,29 @@
 
 .wrapper {
   width: 900px;
-  margin: auto;
+  margin: 0 auto;
   padding-top: 32px;
   text-align: center;
 }
 
 .menu {
   list-style: none;
-  margin: auto;
+  margin: 0 auto;
   margin-bottom: 70px;
+  padding: 0;
   text-align: center;
 }
 
 .menu_item {
   display: inline-block;
-  padding: 40px;
+  padding: 20px;
 }
+
+.menu_item:not(:last-child) {
+  margin-right: 30px;
+}
+
+
 
 .menu_link {
   text-decoration: none;
@@ -45,13 +63,20 @@ main {
   font-size: 16px;
   display: inline-block;
   width: calc(50% - 30px);
-  margin-bottom: 85px;
+  margin-bottom: 60px;
   color: #626262;
 }
 
+/* 
 .box-img-wrp {
-  object-fit: fill;
+  object-fit: cover;
 }
+*/
+/*
+.box-img-wrp {
+  box-sizing: border-box;
+}
+*/
 
 .box-mr {
   margin-right: 60px;
@@ -86,7 +111,7 @@ main {
 }
 
 .foot-button {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .load-btn {
