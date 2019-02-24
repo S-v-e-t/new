@@ -38,8 +38,6 @@
   margin-right: 30px;
 }
 
-
-
 .menu_link {
   text-decoration: none;
   padding: 0 15px;
@@ -65,21 +63,23 @@ main {
   width: calc(50% - 30px);
   margin-bottom: 60px;
   color: #626262;
+  vertical-align: top;
 }
 
-/* 
-.box-img-wrp {
-  object-fit: cover;
-}
-*/
-/*
 .box-img-wrp {
   box-sizing: border-box;
 }
-*/
+
+.box-image {
+  width: 100%;
+  width: 400;
+  height: 300;
+  object-fit: cover;
+  }
 
 .box-mr {
   margin-right: 60px;
+  vertical-align: top;
 }
 
 .box-subtitle {
