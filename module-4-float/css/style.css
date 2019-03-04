@@ -6,21 +6,28 @@
 
 .wrapper {
     width: 1170px;
-    /*background: slategrey;*/
-    padding: 15px auto;
+   /* background: slategrey;*/
+    padding: 40px 15px;
     margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.logo-menu-wrp {
+    margin-bottom: 100px;
 }
 
 .menu {
     list-style: none;
     margin: 0 auto;
-    padding: 0 auto;
-       }
+    padding: 7px;
+    float: right;
+
+}
 
 .menu-item {
-    margin-bottom: 100px;
-    width: 1110px;
-       }
+    float: left;
+
+}
 
 .menu-link {
     text-decoration: none;
@@ -29,23 +36,23 @@
     color: #0f0101;
     font-weight: bold;
     line-height: 0.786;
-    padding: 15px;
-    float: right;
-    
+    padding: 0 15px;
+
+
 }
 
-.menu-link-logo {
-    text-decoration: none;
+.logo {
+
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     line-height: 1.067;
     color: #555252;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 auto;
     float: left;
 }
 
-.menu-link-logo::first-letter {
+.logo::first-letter {
     color: rgb(26, 188, 156);
 }
 
@@ -74,7 +81,8 @@ header {
     width: 180px;
     height: 7px;
     margin: 30px auto;
-    }
+    display: block;
+}
 
 .title-2 {
     font-size: 48px;
@@ -108,8 +116,6 @@ header {
 
 .card {
     margin: 0 15px 30px;
-    vertical-align: top;
-    font-size: 18px;
     float: left;
 }
 
@@ -128,6 +134,10 @@ header {
     text-decoration: none;
 }
 
+.img-cards {
+    height: 282px;
+    overflow: hidden;
+}
 
 .box-image {
     width: 100%;
@@ -141,6 +151,7 @@ header {
     width: 100%;
     height: 40;
     background-color: #323232;
+    font-size: 18px;
 }
 
 .card-prise {
@@ -153,13 +164,11 @@ header {
     background: #8c8c8c;
     margin: 0 auto;
     text-align: center;
-    font-size: 18px;
     float: right;
 }
 
 
 .card-name {
-    font-size: 18px;
     font-family: "Roboto";
     color: rgb(255, 255, 255);
     line-height: 1.778;
@@ -172,11 +181,7 @@ header {
 }
 
 .cards-footer {
-    width: 1170px;
-    padding: 15x;
     margin: auto;
-    vertical-align: top;
-    float: left;
 }
 
 .box {
@@ -191,8 +196,7 @@ header {
     width: 100%;
     width: 350px;
     height: 262px;
-    float: left;
-    }
+}
 
 .img-description {
 
@@ -214,7 +218,7 @@ header {
     height: 3px;
     float: left;
     margin: 15px auto;
-    }
+}
 
 .box-description {
     font-size: 14px;
