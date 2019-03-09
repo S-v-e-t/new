@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .logo-menu-wrp {
   padding: 40px 15px;
   margin: 0 auto;
@@ -16,8 +15,7 @@
   color: #555252;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
-  line-height: 1.067;
-}
+ }
 
 .logo {
   margin: 0 auto;
@@ -47,7 +45,6 @@
   font-family: "Open Sans", sans-serif;
   color: #0f0101;
   font-weight: bold;
-  line-height: 0.786;
   padding: 0 15px;
 }
 
@@ -144,7 +141,6 @@ header {
   font-size: 60px;
   font-family: "Roboto";
   color: #fff;
-  line-height: 1.367;
   text-align: left;
 }
 
@@ -152,12 +148,11 @@ header {
   font-size: 30px;
   font-family: "Roboto";
   color: #fff;
-  line-height: 1.367;
   text-align: left;
   font-weight: lighter;
 }
 
-.footer-wrp {
+.main-wrp {
   background-color: #e9f0fd;
   padding: 100px 15px;
   margin: 0 auto;
@@ -167,7 +162,6 @@ header {
   font-size: 48px;
   font-family: "Roboto";
   color: rgb(81, 81, 81);
-  line-height: 0.667;
   text-align: center;
   margin-bottom: 90px;
 }
@@ -209,7 +203,7 @@ header {
 }
 
 .card:hover .icon-btn {
-   opacity: 1;
+  opacity: 1;
 }
 
 .icon-wrp1:hover .icon-btn-like {
@@ -227,7 +221,7 @@ header {
   opacity: 1;
 }
 .card:hover .icon-btn-add {
-background: #323232;
+  background: #323232;
 }
 
 .card-modal {
@@ -250,16 +244,16 @@ background: #323232;
   z-index: 20;
   transition-duration: 0.3s;
   font-size: 0;
-  
-    }
+}
 
-.icon-wrp1, .icon-wrp2, .icon-wrp3 {
+.icon-wrp1,
+.icon-wrp2,
+.icon-wrp3 {
   display: inline-block;
   vertical-align: top;
   text-align: center;
   margin: 0 8px 10px;
-  }
-
+}
 
 .icon-btn {
   --m: 44px;
@@ -271,13 +265,13 @@ background: #323232;
   opacity: 0;
   text-align: center;
   vertical-align: top;
-  }
+}
 
 .icon-btn-add {
   width: 165px;
   height: 50px;
   margin: 0 8px 10px;
- }
+}
 
 .link-wrp {
   text-decoration: none;
@@ -328,7 +322,7 @@ background: #323232;
   background-color: #323232;
 }
 
-.cards-footer {
+.cards-main {
   margin: auto;
 }
 
@@ -378,10 +372,6 @@ background: #323232;
   padding: 10px 0;
 }
 
-.foot-button {
-  margin-bottom: 50px;
-}
-
 .load-btn {
   font-size: 16px;
   font-family: "OpenSans";
@@ -394,3 +384,25 @@ background: #323232;
   cursor: pointer;
   border: none;
 }
+
+.footer-wrp {
+  background-color: #323232;
+  height: 88px;
+  width: 100%;
+  margin: 0;
+  padding: 36px 0;
+  text-align: center;
+  }
+
+.footer-info, .last-word {
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(254, 254, 254);
+  padding: 0;
+  margin: 0;
+  
+}
+
+.last-word {
+  color: rgb(26, 188, 156);
+  }
