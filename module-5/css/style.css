@@ -15,7 +15,7 @@
   color: #555252;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
- }
+}
 
 .logo {
   margin: 0 auto;
@@ -83,6 +83,7 @@ header {
   margin: auto;
   padding: 0 15px;
 }
+
 .slider-content {
   position: absolute;
   width: 760px;
@@ -119,14 +120,17 @@ header {
 .slider-btn:hover {
   opacity: 1;
 }
+
 .arrow-right {
   transform: rotate(315deg);
   margin-right: 15px;
 }
+
 .arrow-left {
   transform: rotate(135deg);
   margin-left: 15px;
 }
+
 .arrow {
   --d: 23px;
   display: inline-block;
@@ -158,6 +162,7 @@ header {
   margin: 0 auto;
   width: 1170px;
 }
+
 .title-2 {
   font-size: 48px;
   font-family: "Roboto";
@@ -220,6 +225,7 @@ header {
   background: rgb(26, 188, 156);
   opacity: 1;
 }
+
 .card:hover .icon-btn-add {
   background: #323232;
 }
@@ -392,19 +398,20 @@ header {
   margin: 0;
   text-align: center;
   --s: 88px;
-	line-height: var(--s);
-	height: var(--s);
-  }
+  line-height: var(--s);
+  height: var(--s);
+}
 
-.footer-info, .last-word {
+.footer-info,
+.last-word {
   font-size: 16px;
   font-family: "OpenSans";
   color: rgb(254, 254, 254);
   padding: 0;
   margin: 0;
-  
+
 }
 
 .last-word {
   color: rgb(26, 188, 156);
-  }
+}
