@@ -226,6 +226,7 @@
   height: auto;
   width: 380px;
   cursor: pointer;
+ 
 }
 
 .img-card-wrp {
@@ -241,6 +242,7 @@
   margin-bottom: 30px;
   position: absolute;
   z-index: 8;
+  transition: all 0.4s; 
 }
 
 .card-modal {
@@ -252,17 +254,18 @@
   z-index: 10;
   background: linear-gradient(#f38181, #efd688);
   opacity: 0;
+  transition: all 0.4s; 
 }
 
 .card:hover .img-card {
-  transition: 0.4s;
+  
   transform: translate(-10px, -10px);
   box-shadow: 10px 10px #95e1d3;
 }
 
 .card:hover .card-modal {
   opacity: 0.9;
-  transition: 0.4s;
+  transition: all 0.4s;
 }
 
 .card:hover .img-card-wrp {
