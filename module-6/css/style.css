@@ -265,12 +265,12 @@
 
 .card:hover .card-modal {
   opacity: 0.9;
-  transition: all 0.4s;
+  
 }
 
 .card:hover .img-card-wrp {
   transform: translate(-10px, -10px);
-  transition: 0.4s;
+  
 }
 
 .cards-icon-wrp {
