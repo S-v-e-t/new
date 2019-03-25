@@ -1,0 +1,31 @@
+.wrapper {
+    width: 90%;
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+    height: 96vh;
+  }
+  table {
+    width: 32rem;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  td {
+    height: 5rem;
+    border: 1px solid olivedrab;
+  }
+  .grey {
+    background-color: #ddd;
+  }
+  .red {
+    background-color: #ff3300;
+  }
+  .yellow {
+    background-color: #ff0;
+  }
+  .blue {
+    background-color: #00f;
+  }
+  .dark {
+    background-color: #333;
+  }
