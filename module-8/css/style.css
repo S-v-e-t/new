@@ -17,7 +17,7 @@
     height: 540px;
     text-align: center;
     margin: auto;
-    }
+}
 
 .menu {
     display: flex;
@@ -191,9 +191,11 @@
         height: 700px;
         background-image: url(../img/header-bg@tablet.jpg);
     }
+
     .header-wrp {
         width: 748px;
     }
+
     .header-menu-wrp {
         padding: 0 40px;
         display: flex;
@@ -208,9 +210,11 @@
         height: 700px;
         background-image: url(../img/header-bg@desktop.jpg);
     }
+
     .header-wrp {
         width: 960px;
     }
+
     .header-menu-wrp {
         padding: 0 40px;
         display: flex;
