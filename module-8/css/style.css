@@ -115,7 +115,6 @@
   padding-bottom: 75px;
   justify-content: center;
   flex-direction: column;
-
 }
 
 .cards {
@@ -132,6 +131,7 @@
 }
 
 .card {
+  width: 320px;
   display: flex;
   padding: 25px 50px;
   flex-wrap: wrap;
@@ -141,29 +141,48 @@
 }
 
 .card-img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.position-r {
   width: 120px;
   height: 120px;
   margin: auto;
+  display: flex;
+  position: relative;
+
+}
+
+.icon-wrp {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
+  border: #fff solid 4px;
   border-radius: 50%;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
 }
 
-.img-1 {
-  background-image: url(../img/bradley.jpg);
+.icon {
+  margin: auto;
 }
 
-.img-2 {
-  background-image: url(../img/lucas.jpg);
+.icon-tv {
+  background: #ff4e50;
 }
 
-.img-3 {
-  background-image: url(../img/heather\ .jpg);
+.icon-chemical {
+  background: #1cd7ad;
 }
 
-.img-4 {
-  background-image: url(../img/hunter.jpg);
+.icon-tea {
+  background: #ffa507;
+}
+
+.icon-fly {
+  background: #4e73db;
 }
 
 .card-title {
@@ -179,7 +198,6 @@
   font-family: "Roboto", sans-serif;
   color: rgb(102, 102, 102);
   line-height: 1.2;
-  max-width: 240px;
 }
 
 @media (min-width: 748px) {
@@ -202,7 +220,7 @@
   .card {
     width: 49%;
   }
-}
+  }
 
 @media (min-width: 960px) {
   .container-fluid--header {
@@ -222,7 +240,6 @@
   }
 
   .cards {
-
     max-width: 940px;
   }
 
