@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+}
+
+*,
+* ::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrp {
+  min-width: 320px;
+  padding-top: 30px;
+  height: 540px;
+  text-align: center;
+  margin: auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 120px;
+}
+
+.menu-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 3px solid transparent;
+  border-radius: 25px;
+}
+
+.menu-link:hover {
+  border-color: #fff;
+}
+
+.logo-wrp {
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding: 20px;
+}
+
+.discription {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  background: #ff4e50;
+  padding: 16px 25px;
+  border: 3px solid transparent;
+  border-radius: 25px;
+  outline: none;
+}
+
+.btn:hover {
+  background: #fff;
+  border-color: #ff4e50;
+  color: #ff4e50;
+}
+
+.btn:active {
+  border-color: transparent;
+}
+
+.container-fluid--header {
+  height: 540px;
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+.title-2 {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.main-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 75px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards {
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link-card {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card {
+  width: 320px;
+  display: flex;
+  padding: 25px 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.card-img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.position-r {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  position: relative;
+
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  width: 40px;
+  border: #fff solid 4px;
+  border-radius: 50%;
+  display: flex;
+  z-index: 10;
+}
+
+.icon-tv {
+  background-color: #ff4e50;
+  background-image: url(../img/icon1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-chemical {
+  background: #1cd7ad;
+  background-image: url(../img/icon2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-tea {
+  background: #ffa507;
+  background-image: url(../img/icon3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-fly {
+  background: #4e73db;
+  background-image: url(../img/icon4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-title {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  padding: 24px;
+}
+
+.card-discription {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+}
+
+@media (min-width: 748px) {
+  .container-fluid--header {
+    height: 700px;
+    background-image: url(../img/header-bg@tablet.jpg);
+  }
+
+  .header-wrp {
+    width: 748px;
+  }
+
+  .header-menu-wrp {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .card {
+    width: 49%;
+  }
+  }
+
+@media (min-width: 960px) {
+  .container-fluid--header {
+    height: 700px;
+    background-image: url(../img/header-bg@desktop.jpg);
+  }
+
+  .header-wrp {
+    width: 960px;
+  }
+
+  .header-menu-wrp {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  .cards {
+    max-width: 940px;
+  }
+
+  .card {
+    width: 25%;
+    display: flex;
+    align-content: flex-start;
+    padding: 20px;
+  }
+}
