@@ -138,12 +138,19 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
-}
+  }
 
 .card-img {
   border-radius: 50%;
   overflow: hidden;
-}
+  }
+
+  .image {
+    transition: all 0.4s;
+  }
+.card-img:hover .image {
+  transform: scale(1.2);
+   }
 
 .position-r {
   width: 120px;
@@ -162,7 +169,6 @@
   width: 40px;
   border: #fff solid 4px;
   border-radius: 50%;
-  display: flex;
   z-index: 10;
 }
 
