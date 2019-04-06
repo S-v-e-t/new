@@ -5,41 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>module-9</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <div class="container-fluid container-fluid--header">
-      <header class="header-wrp">
-        <div class="header-menu-wrp">
-          <nav>
-            <ul class="menu">
-              <li class="menu-item">
-                <a href="#" class="menu-link">Log in</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="menu-link">Sign up</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="logo-wrp">
-            <a href="#">
-              <img src="./img/logo.png" alt="logo" />
-            </a>
+    <div class="container-fluid">
+      <header class="container pt-3">
+        <div class="row pt-1">
+          <div class="header-wrp col-12 text-center">
+            <nav>
+              <ul class="menu d-flex justify-content-center">
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Log in</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Sign up</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="logo-wrp">
+              <a href="#">
+                <img src="./img/logo.png" alt="logo" />
+              </a>
+            </div>
           </div>
         </div>
-        <h1 class="title">Share your holiday dreams</h1>
-        <p class="discription">And find the perfect partner to full fill it</p>
-        <button class="btn">Find your holiday partner</button>
+        <div class="row">
+          <h1 class="title text-center col-12">Share your holiday dreams</h1>
+        </div>
+        <div class="row">
+          <p class="discription text-center col-12">
+            And find the perfect partner to full fill it
+          </p>
+        </div>
+        <div class="row justify-content-center">
+          <button class="btn">Find your holiday partner</button>
+        </div>
       </header>
     </div>
-    <h2 class="title-2">Meet a partner for your best holiday</h2>
-    <main class="main-wrp">
-      <div class="cards">
+    <main class="row main-wrp justify-content-center">
+      <div class="row">
+        <h2 class="title-2 text-center col-12">
+          Meet a partner for your best holiday
+        </h2>
+      </div>
+      <div class="row cards justify-content-center p-3">
         <!-- card-1 -->
-        <div class="card">
+        <div
+          class="container card col-10 col-md-4 col-lg-3 text-center pt-4 pb-4 pl-5 pr-5 order-md-1"
+        >
           <a class="link-card" href="#">
             <div class="position-r">
               <div class="card-img">
@@ -55,7 +76,9 @@
         </div>
         <!-- end-card-1 -->
         <!-- card-2 -->
-        <div class="card">
+        <div
+          class="container card col-10 col-md-4 col-lg-3 text-center pt-4 pb-4 pl-5 pr-5 order-md-4"
+        >
           <a class="link-card" href="#">
             <div class="position-r">
               <div class="card-img">
@@ -71,12 +94,15 @@
           </a>
         </div>
         <!-- end-card-2 -->
+        <div class="w-100 d-none d-md-block d-lg-none order-md-3"></div>
         <!-- card-3 -->
-        <div class="card">
+        <div
+          class="container card col-10 col-md-4 col-lg-3 text-center pt-4 pb-4 pl-5 pr-5 order-md-2"
+        >
           <a class="link-card" href="#">
             <div class="position-r">
               <div class="card-img">
-                <img class="image" src="./img/heather .jpg" alt="heather" />
+                <img class="image" src="./img/heather.jpg" alt="heather" />
               </div>
               <i class="icon icon-tea"></i>
             </div>
@@ -88,7 +114,9 @@
         </div>
         <!-- end-card-3 -->
         <!-- card-4 -->
-        <div class="card">
+        <div
+          class="container card col-10 col-md-4 col-lg-3 text-center pt-4 pb-4 pl-5 pr-5 order-md-5"
+        >
           <a class="link-card" href="#">
             <div class="position-r">
               <div class="card-img">
@@ -106,5 +134,6 @@
       </div>
       <button class="btn btn-2">Find your holiday partner</button>
     </main>
+    <script src="./js/width.js"></script>
   </body>
 </html>
