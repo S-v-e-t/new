@@ -17,9 +17,9 @@
 }
 
 .header__wrp {
-  padding-top: 30px;
   height: 1000px;
   width: 100%;
+  padding-top: 30px;
   background-image: url(../img/bg.png);
   background-size: 100% auto;
   background-position: center;
