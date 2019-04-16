@@ -21,10 +21,10 @@
   width: 100%;
   padding-top: 30px;
   background-image: url(../img/bg.png);
-  background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  background-size: cover;
 }
 
 .header__user-wrp {
