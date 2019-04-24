@@ -1,0 +1,24 @@
+%roboto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+@mixin rob($italic) {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: $italic;
+}
+
+%montserrat {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@mixin monts($fontsize) {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: $fontsize;
+}

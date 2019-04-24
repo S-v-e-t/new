@@ -1,0 +1,125 @@
+
+.card {
+  height: auto;
+  width: 380px;
+  cursor: pointer;
+
+  &__img-wrp {
+    position: relative;
+    font-size: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 380px;
+    height: 470px;
+    margin-bottom: 2rem;
+  }
+
+  &__img {
+    margin-bottom: 30px;
+    position: absolute;
+    z-index: 8;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  &__modal {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: 10px;
+    bottom: 10px;
+    z-index: 10;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from($color-icon-hover),
+      to($color-after)
+    );
+    background: -webkit-linear-gradient($color-icon-hover, $color-after);
+    background: -o-linear-gradient($color-icon-hover, $color-after);
+    background: linear-gradient($color-icon-hover, $color-after);
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  &:hover &__img {
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+    -webkit-box-shadow: 10px 10px $color-shadow;
+    box-shadow: 10px 10px $color-shadow;
+  }
+
+  &:hover &__modal {
+    opacity: 0.9;
+  }
+
+  &:hover &__img-wrp {
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
+    transform: translate(-10px, -10px);
+  }
+
+  &__icons-wrp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 224px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 20;
+  }
+
+  &__icon-btn {
+    --m: 56px;
+    background: transparent;
+    border: 1px solid $color-head;
+    cursor: pointer;
+    width: var(--m);
+    height: var(--m);
+    opacity: 0;
+  }
+
+  .ico {
+    --s: 36px;
+    width: var(--s);
+    height: var(--s);
+    fill: $color-icon-hover;
+  }
+
+  &__icon-btn:hover .ico {
+    fill: $color-after;
+  }
+
+  &:hover &__icon-btn {
+    background: $color-after;
+    opacity: 1;
+  }
+
+  &__icon-wrp:hover &__icon-btn {
+    background: $color-icon-hover;
+    opacity: 1;
+  }
+
+  &__title {
+    @include monts(14px);
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__subtitle {
+    @include rob(italic);
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
