@@ -30,15 +30,15 @@
     right: 10px;
     bottom: 10px;
     z-index: 10;
-    background: -webkit-gradient(
+    background: gradient(
       linear,
       left top,
       left bottom,
       from($color-icon-hover),
       to($color-after)
     );
-    background: -webkit-linear-gradient($color-icon-hover, $color-after);
-    background: -o-linear-gradient($color-icon-hover, $color-after);
+    background: linear-gradient($color-icon-hover, $color-after);
+    background: linear-gradient($color-icon-hover, $color-after);
     background: linear-gradient($color-icon-hover, $color-after);
     opacity: 0;
     -webkit-transition: all 0.4s;
